@@ -1,0 +1,88 @@
+<!DOCTYPE html><html><head>
+	<title>File Splitter</title>
+	<link rel="stylesheet" href="style.css" />
+<body>
+
+	<main>
+		<div class="ftpForm">
+			<h4>FTP Credentials:</h4>
+			<table><tbody>
+				<tr>
+					<td>
+						<label for="host">Host</label>
+					</td>
+					<td>
+						<input type="text" id="host" placeholder="your.host.com" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="user">Username</label>
+					</td>
+					<td>
+						<input type="text" id="user" placeholder="ftp_username" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="pass">Password</label>
+					</td>
+					<td>
+						<input type="password" id="pass" placeholder="ftp_password" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="port">Port</label>
+					</td>
+					<td>
+						<input type="number" id="port" placeholder="21" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="secure">Secure</label>
+					</td>
+					<td>
+						<input type="checkbox" id="secure" checked />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="path">File Path</label>
+					</td>
+					<td>
+						<input type="text" id="path" placeholder="/path/on/server" />
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+
+
+
+		<div class="pathForm">
+			<h4>Local Copies:</h4>
+			<table><tbody>
+				<tr>
+					<td>
+						<label for="localPath">Local Path A</label>
+					</td>
+					<td>
+						<input type="text" id="localPath" placeholder="/path/on/computer" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="localPath">Local Path B</label>
+					</td>
+					<td>
+						<input type="text" id="localPathB" placeholder="/another/path/on/computer" />
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+	</main>
+
+	<div class="status"></div>
+
+	<script src="script.js"></script>

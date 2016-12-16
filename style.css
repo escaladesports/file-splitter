@@ -1,0 +1,42 @@
+body{
+	font-family: Verdana;
+}
+main{
+	padding-bottom: 100px;
+}
+input{
+	min-width: 300px;
+}
+label{
+	display: block;
+	text-align: right;
+	margin-right: 10px;
+}
+label:after{
+	content: ':';
+	display: inline;
+}
+h4{
+	margin-bottom: 10px;
+	margin-top: 30px;
+	text-align: center;
+}
+table{
+	margin: auto;
+}
+
+.status{
+	background-color: #000;
+	color: #0f0;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100px;
+	overflow: auto;
+	padding: 20px;
+	font-family: monospace;
+}
+.err{
+	color: #f00;
+}
